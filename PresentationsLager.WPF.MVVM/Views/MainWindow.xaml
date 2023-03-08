@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PresentationsLager.WPF.MVVM"
         xmlns:vm="clr-namespace:PresentationsLager.WPF.MVVM.ViewModels"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
         mc:Ignorable="d"
         Title="Bokning av böcker" Height="800" Width="1000"
         MinHeight="500" MinWidth="800" WindowStartupLocation="CenterScreen">
@@ -44,7 +45,8 @@
                       IsEnabled="{Binding IsNotModified}"/>
             <StackPanel>
                 <TextBlock Text="Välj bokningens startdatum:" FontWeight="Bold" Margin="5" Width="170"/>
-                <DatePicker x:Name="StartTimeText" SelectedDate="{Binding StartLån}" 
+                <DatePicker x:Name="StartTimeText" SelectedDate="{Binding StartLånSelectedIndex}" 
+                            DisplayDate="{Binding DateTime.Now}" 
                             BorderThickness="0" Background="Fuchsia" Width="170"/>
             </StackPanel>
             <!-- Böcker Datagrid -->
