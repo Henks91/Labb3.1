@@ -7278,19 +7278,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\DANIEL\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\Labb3.1\\GUI\\GUI.csproj",
+      "projectUniqueName": "C:\\Users\\DANIEL\\Source\\Repos\\Henks91\\Labb3.1\\GUI\\GUI.csproj",
       "projectName": "GUI",
-      "projectPath": "C:\\Users\\user\\Source\\Repos\\Labb3.1\\GUI\\GUI.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Source\\Repos\\Labb3.1\\GUI\\obj\\",
+      "projectPath": "C:\\Users\\DANIEL\\Source\\Repos\\Henks91\\Labb3.1\\GUI\\GUI.csproj",
+      "packagesPath": "C:\\Users\\DANIEL\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DANIEL\\Source\\Repos\\Henks91\\Labb3.1\\GUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DANIEL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7304,11 +7304,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\user\\Source\\Repos\\Labb3.1\\AffärsLager\\BusinessEntites.csproj": {
-              "projectPath": "C:\\Users\\user\\Source\\Repos\\Labb3.1\\AffärsLager\\BusinessEntites.csproj"
+            "C:\\Users\\DANIEL\\Source\\Repos\\Henks91\\Labb3.1\\AffärsLager\\BusinessEntites.csproj": {
+              "projectPath": "C:\\Users\\DANIEL\\Source\\Repos\\Henks91\\Labb3.1\\AffärsLager\\BusinessEntites.csproj"
             },
-            "C:\\Users\\user\\Source\\Repos\\Labb3.1\\Entiteter\\BusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\user\\Source\\Repos\\Labb3.1\\Entiteter\\BusinessLayer.csproj"
+            "C:\\Users\\DANIEL\\Source\\Repos\\Henks91\\Labb3.1\\Entiteter\\BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\DANIEL\\Source\\Repos\\Henks91\\Labb3.1\\Entiteter\\BusinessLayer.csproj"
             }
           }
         }
@@ -7347,7 +7347,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
