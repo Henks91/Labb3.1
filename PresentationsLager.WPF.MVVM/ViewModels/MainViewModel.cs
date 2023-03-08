@@ -204,7 +204,7 @@ namespace PresentationsLager.WPF.MVVM.ViewModels
             if (valdaBöcker != null)
             {
                 Expidit exp = kontroller.HämtaExpidit(1);
-                Bokning bokning = kontroller.SkapaBokning(MedlemSelectedItem, exp, StartLån, ValdaBöcker);
+                Bokning bokning = kontroller.SkapaBokning(MedlemSelectedItem.MedlemsId, exp.AnstId, StartLån, ValdaBöcker);
                 Status = $"Skapat bokning med följande bokningsId: {bokning.BokningId})";
                 IsNotModified = true;
             }
