@@ -112,7 +112,7 @@
             <TextBox Text="{Binding Path=ValdBokning.Tillhör}" IsReadOnly="True" />
 
             <TextBlock Text="Utlämnad" FontWeight="Bold" Margin="5" />
-            <DatePicker Text="{Binding Path=ValdBokning.FaktisktStartLån.Date}" />
+            <TextBox Text="{Binding Path=ValdBokning.FaktisktStartLån.Date}" />
 
             <TextBlock Text="Skapad av Expidit, med ID:" FontWeight="Bold" Margin="5" />
             <TextBox Text="{Binding Path=ValdBokning.SkapadAv, Mode=TwoWay}" Margin="5" IsReadOnly="True" />
