@@ -38,3 +38,13 @@ C:\Users\user\Source\Repos\Labb3.1\AffärsLager\obj\Debug\netcoreapp3.1\Business
 C:\Users\user\Source\Repos\Labb3.1\AffärsLager\obj\Debug\netcoreapp3.1\BusinessEntites.csproj.CoreCompileInputs.cache
 C:\Users\user\Source\Repos\Labb3.1\AffärsLager\obj\Debug\netcoreapp3.1\BusinessEntites.dll
 C:\Users\user\Source\Repos\Labb3.1\AffärsLager\obj\Debug\netcoreapp3.1\BusinessEntites.pdb
+C:\Users\DANIEL\source\repos\Henks91\Labb3.1\AffärsLager\bin\Debug\netcoreapp3.1\BusinessEntites.deps.json
+C:\Users\DANIEL\Source\Repos\Henks91\Labb3.1\AffärsLager\bin\Debug\netcoreapp3.1\BusinessEntites.dll
+C:\Users\DANIEL\Source\Repos\Henks91\Labb3.1\AffärsLager\bin\Debug\netcoreapp3.1\BusinessEntites.pdb
+C:\Users\DANIEL\Source\Repos\Henks91\Labb3.1\AffärsLager\obj\Debug\netcoreapp3.1\BusinessEntites.csproj.AssemblyReference.cache
+C:\Users\DANIEL\Source\Repos\Henks91\Labb3.1\AffärsLager\obj\Debug\netcoreapp3.1\BusinessEntites.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DANIEL\Source\Repos\Henks91\Labb3.1\AffärsLager\obj\Debug\netcoreapp3.1\BusinessEntites.AssemblyInfoInputs.cache
+C:\Users\DANIEL\Source\Repos\Henks91\Labb3.1\AffärsLager\obj\Debug\netcoreapp3.1\BusinessEntites.AssemblyInfo.cs
+C:\Users\DANIEL\Source\Repos\Henks91\Labb3.1\AffärsLager\obj\Debug\netcoreapp3.1\BusinessEntites.csproj.CoreCompileInputs.cache
+C:\Users\DANIEL\Source\Repos\Henks91\Labb3.1\AffärsLager\obj\Debug\netcoreapp3.1\BusinessEntites.dll
+C:\Users\DANIEL\Source\Repos\Henks91\Labb3.1\AffärsLager\obj\Debug\netcoreapp3.1\BusinessEntites.pdb

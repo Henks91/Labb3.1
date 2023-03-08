@@ -50,3 +50,16 @@ C:\Users\user\Source\Repos\Labb3.1\Datalager\obj\Debug\netcoreapp3.1\DataLayer.c
 C:\Users\user\Source\Repos\Labb3.1\Datalager\obj\Debug\netcoreapp3.1\DataLayer.csproj.CopyComplete
 C:\Users\user\Source\Repos\Labb3.1\Datalager\obj\Debug\netcoreapp3.1\DataLayer.dll
 C:\Users\user\Source\Repos\Labb3.1\Datalager\obj\Debug\netcoreapp3.1\DataLayer.pdb
+C:\Users\DANIEL\source\repos\Henks91\Labb3.1\Datalager\bin\Debug\netcoreapp3.1\DataLayer.deps.json
+C:\Users\DANIEL\Source\Repos\Henks91\Labb3.1\Datalager\bin\Debug\netcoreapp3.1\DataLayer.dll
+C:\Users\DANIEL\Source\Repos\Henks91\Labb3.1\Datalager\bin\Debug\netcoreapp3.1\DataLayer.pdb
+C:\Users\DANIEL\Source\Repos\Henks91\Labb3.1\Datalager\bin\Debug\netcoreapp3.1\BusinessEntites.dll
+C:\Users\DANIEL\Source\Repos\Henks91\Labb3.1\Datalager\bin\Debug\netcoreapp3.1\BusinessEntites.pdb
+C:\Users\DANIEL\Source\Repos\Henks91\Labb3.1\Datalager\obj\Debug\netcoreapp3.1\DataLayer.csproj.AssemblyReference.cache
+C:\Users\DANIEL\Source\Repos\Henks91\Labb3.1\Datalager\obj\Debug\netcoreapp3.1\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DANIEL\Source\Repos\Henks91\Labb3.1\Datalager\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfoInputs.cache
+C:\Users\DANIEL\Source\Repos\Henks91\Labb3.1\Datalager\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfo.cs
+C:\Users\DANIEL\Source\Repos\Henks91\Labb3.1\Datalager\obj\Debug\netcoreapp3.1\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\DANIEL\source\repos\Henks91\Labb3.1\Datalager\obj\Debug\netcoreapp3.1\DataLayer.csproj.CopyComplete
+C:\Users\DANIEL\Source\Repos\Henks91\Labb3.1\Datalager\obj\Debug\netcoreapp3.1\DataLayer.dll
+C:\Users\DANIEL\Source\Repos\Henks91\Labb3.1\Datalager\obj\Debug\netcoreapp3.1\DataLayer.pdb
