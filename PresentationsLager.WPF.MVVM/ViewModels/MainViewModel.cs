@@ -46,19 +46,8 @@ namespace PresentationsLager.WPF.MVVM.ViewModels
             set { boks = value; OnPropertyChanged(); }
         }
 
-        private DateTime startLån;  //FIXA SENARE
-        public DateTime StartLån
-        {
-            get
-            {
-                return startLån;
-            }
-            set
-            {
-                startLån = value;
-                OnPropertyChanged();
-            }
-        }
+        private DateTime startLånSelectedIndex;  //FIXA SENARE
+        public DateTime StartLånSelectedIndex { get { return startLånSelectedIndex; } set { startLånSelectedIndex = value; OnPropertyChanged(); } }
 
         private ObservableCollection<Bokning> bokning = null!;
         public ObservableCollection<Bokning> Bokning
@@ -204,7 +193,7 @@ namespace PresentationsLager.WPF.MVVM.ViewModels
             if (valdaBöcker != null)
             {
                 Expidit exp = kontroller.HämtaExpidit(1);
-                Bokning bokning = kontroller.SkapaBokning(MedlemSelectedItem, exp, StartLån, ValdaBöcker);
+                Bokning bokning = kontroller.SkapaBokning(MedlemSelectedItem.MedlemsId, exp.AnstId, StartLånSelectedIndex, ValdaBöcker);
                 Status = $"Skapat bokning med följande bokningsId: {bokning.BokningId})";
                 IsNotModified = true;
             }
@@ -223,5 +212,10 @@ namespace PresentationsLager.WPF.MVVM.ViewModels
             IsNotModified = true;
         });
 
+        private ICommand lämnaUtCommand = null!;
+        public ICommand LämnaUtCommand => lämnaUtCommand ??= lämnaUtCommand = new RelayCommand(() =>
+            {
+
+            });
     }
 }

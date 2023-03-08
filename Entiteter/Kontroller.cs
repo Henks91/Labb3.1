@@ -35,7 +35,7 @@ namespace BusinessLayer
         public void LaddaData()
         {
             BokningDbContext DbContext = new BokningDbContext();
-            //DbContext.Reset();
+            DbContext.Reset();
             DbContext.Database.EnsureCreated();
         }
         #endregion
@@ -88,7 +88,7 @@ namespace BusinessLayer
         /// <param name="startlån"></param>
         /// <param name="bokadeBöcker"></param>
         /// <returns></returns>
-        public Bokning SkapaBokning(Medlem medlem, Expidit exp, DateTime startlån, IList<Bok> bokadeBöcker)
+        public Bokning SkapaBokning(int medlem, int exp, DateTime startlån, IList<Bok> bokadeBöcker)
         {
 
             using (UnitOfWork unit = new UnitOfWork())
@@ -97,8 +97,8 @@ namespace BusinessLayer
                 Bokning bokning = new Bokning()
                 {
                     BokningId = default,
-                    Expidit = exp,
-                    Medlem = medlem,
+                    SkapadAv = exp,
+                    Tillhör = medlem,
                     BokadeBöcker = bokadeBöcker,
                     StartLån = startlån,
                     FaktisktStartLån = default(DateTime),
@@ -182,7 +182,7 @@ namespace BusinessLayer
         {
             using (UnitOfWork unit = new UnitOfWork())
             {
-                Bokning bokning2 = unit.Bokning.FirstOrDefault(b => b.BokningId == bNr || b.Medlem.MedlemsId == bNr); 
+                Bokning bokning2 = unit.Bokning.FirstOrDefault(b => b.BokningId == bNr || b.Tillhör == bNr); 
                 
                 if (bokning2.Återlämnad == false)
                 {
@@ -289,7 +289,7 @@ namespace BusinessLayer
             List<Bok> bikbok = new List<Bok>();
             using (UnitOfWork unit = new UnitOfWork())
             {
-                Bokning bokning2 = unit.Bokning.FirstOrDefault(b => b.BokningId == EttNr || b.Medlem.MedlemsId == EttNr);
+                Bokning bokning2 = unit.Bokning.FirstOrDefault(b => b.BokningId == EttNr || b.Tillhör == EttNr);
 
                 foreach (Bok b in bokning2.BokadeBöcker)
                 {
