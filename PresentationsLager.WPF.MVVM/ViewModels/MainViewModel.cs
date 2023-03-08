@@ -223,5 +223,10 @@ namespace PresentationsLager.WPF.MVVM.ViewModels
             IsNotModified = true;
         });
 
+        private ICommand lämnaUtCommand = null!;
+        public ICommand LämnaUtCommand => lämnaUtCommand ??= lämnaUtCommand = new RelayCommand(() =>
+            {
+
+            });
     }
 }
